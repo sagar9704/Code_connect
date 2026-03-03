@@ -1,0 +1,13 @@
+/* src/styles/dashboard.css */
+.dashboard-root { display:flex; gap:20px; padding:24px; min-height:100vh; background:linear-gradient(180deg,#071018,#050814); color:#dff3f2; }
+.ds-left { width:260px; padding:18px; background:linear-gradient(180deg,#0b1519,#071018); border-radius:12px; }
+.ds-logo { width:56px; height:56px; }
+.ds-profile { display:flex; gap:12px; align-items:center; margin-top:18px; }
+.ds-nav { margin-top:20px; }
+.ds-section { margin-top:12px; opacity:0.75; font-size:13px; }
+.ds-project { padding:8px 6px; border-radius:8px; margin-top:8px; background:rgba(255,255,255,0.02); display:flex; justify-content:space-between; }
+.ds-main { flex:1; padding:18px; }
+.ds-header { display:flex; justify-content:space-between; align-items:center; margin-bottom:18px; }
+.ds-grid { display:grid; grid-template-columns: repeat(auto-fill,minmax(240px,1fr)); gap:14px; }
+.ds-card { padding:12px; border-radius:10px; background:linear-gradient(180deg,#07121a,#09161a); }
+.ds-card-lang { background:rgba(255,255,255,0.03); padding:6px 10px; border-radius:999px; font-size:12px; }

@@ -1,0 +1,23 @@
+/* src/components/dashboard-sidebar.css */
+.dashboard-sidebar{
+  width: 260px;
+  padding: 22px;
+  background: linear-gradient(180deg,#0f1720,#0b1116);
+  color: #dfeff6;
+  border-radius: 12px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.02);
+  min-height: 100vh;
+}
+.ds-avatar{
+  width:56px;height:56px;border-radius:50%;
+  background:#0f2b3a;color:#fff;display:flex;align-items:center;justify-content:center;
+  font-weight:700;font-size:20px;margin-bottom:10px;
+}
+.ds-name{font-weight:700;font-size:16px}
+.ds-role{font-size:12px;opacity:0.7;margin-bottom:14px}
+.ds-nav{margin-top:18px}
+.ds-link{display:block;background:transparent;border:none;color:inherit;padding:8px 0;text-align:left;cursor:pointer}
+.ds-link.active{font-weight:700}
+.ds-section{margin-top:18px;font-size:12px;opacity:0.6}
+.ds-list{list-style:none;padding-left:0;margin-top:8px;color:#bcd6e4;opacity:0.8}
+.ds-list li{padding:6px 0}

@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* debug: uncomment to confirm CSS is loaded (page background should turn lightgreen)
+   Remove this block after verification. */
+body.debug-tailwind-loaded {
+  background: lightgreen !important;
+}
+
+/* editor monospace helper */
+textarea, pre, code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
+}
